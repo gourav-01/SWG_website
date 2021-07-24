@@ -244,42 +244,61 @@
 
  
   <!-- Start Facts-->
-  <section id="studymaterials" class="section parallax">
+  <section id="studymaterials" class="section parallax">    
     <div class="overlay"></div>
        <div class="container">
            <div class="row">
                   
                 <!-- Start Item-->
                 <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
-                    <span><i class="icon-happy"></i></span>
-                    <h3>841</h3>
-                    <span>Happy Clients</span>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Chemistry Semester</button>
+                        <div id="chemistry_semester" class="dropdown-content">
+                          <a href="#">Chemistry</a>
+                          <a href="#">Chemistry Lab</a>
+                          <a href="https://drive.google.com/drive/folders/1j3XD1XMxdb07vBE84hqfMUU9wdj-wOww?usp=sharing">Engineering Drawing</a>
+                          <a href="#">English for communication</a>
+                          <a href="https://drive.google.com/drive/folders/11p02_CZGmmPZOOVY0_MwiaeW89YbS4os?usp=sharing">PDS</a>
+                          <a href="https://drive.google.com/drive/folders/1yB95BJrYHYN-8ZwVXuJM25oNqmdGQxBq?usp=sharing">PDS Lab</a>
+                          <a href="https://drive.google.com/drive/folders/1SHj4OsRVEbDF6s5NC6b3Dix3OMNb3q9e?usp=sharing">Science of Living System</a>
+                        </div>
+                      </div>
                 </div>
                 <!-- End Item-->
  
                  <!-- Start Item-->
                 <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
-                 <span><i class="icon-presentation"></i></span>
-                    <h3>800</h3>
-                    <span>Projects</span>
+                    <div class="dropdown">
+                        <button onclick="myFunction2()" class="dropbtn">Physics Semester</button>
+                        <div id="physics_semester" class="dropdown-content">
+                            <a href="https://drive.google.com/drive/folders/1VCXHf244c-69fdJawiSB2yWqEz46xUQw?usp=sharing">Basic Engineering Mechanics</a>
+                            <a href="https://drive.google.com/drive/folders/1O1hglgMRXRbVwfUaHJRhNSlGe4h-Yfiz?usp=sharing">Electrical Technology</a>
+                            <a href="https://drive.google.com/drive/folders/1D2ATbP5ch6rH-emFejkObl-EbS2yCLvj?usp=sharing">Engiineering Lab</a>
+                            <a href="https://drive.google.com/drive/folders/1eGgWfgEKPUu-F2lc2GIuWGoCdfoGlGuW?usp=sharing">Environmental Science</a>
+                            <a href="https://drive.google.com/drive/folders/1gRWVxpsfbQBtMqhYVOicaGZuCtrccfro?usp=sharing">Physics of Waves</a>
+                            <a href="https://drive.google.com/drive/folders/1Cf2iWmAIRB5JbswJNWGpaZ2HJMmr1XM9?usp=sharing">Physics Lab</a>
+                        </div>
+                      </div>
                 </div>
                 <!-- End Item-->
 
-                 <!-- Start Item-->
+                <!-- Start Item-->
                 <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
-                 <span><i class="icon-target"></i></span>
-                    <h3>1232</h3>
-                    <span>Lines of Code</span>
-                </div>
-                <!-- End Item-->
+                <div class="dropdown">
+                    <button onclick="maths1()" class="dropbtn">Mathematics-I</button>
 
-                 <!-- Start Item-->
-                <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
-                 <span><i class="icon-trophy"></i></span>
-                    <h3>300</h3>
-                    <span>Awards Won</span>
-                </div>
-                <!-- End Item-->
+                    </div>
+            </div>
+            <!-- End Item-->
+
+            <!-- Start Item-->
+            <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
+                <div class="dropdown">
+                    <button onclick="maths2()" class="dropbtn">Mathematics-II</button>
+                    </div>
+                    </div>
+            </div>
+            <!-- End Item-->
 
              </div> <!-- /.row -->
        </div> <!-- /.container -->
@@ -1336,6 +1355,7 @@ viverra purus tristique.</p>
     <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
     <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
+    <script src="js/dropdown.js"></script>
     
  </body>
 </html>
